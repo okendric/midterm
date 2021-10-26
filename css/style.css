@@ -69,14 +69,22 @@ a {
     color: white;
     background-color: black;
     text-align: center;
+    height: 50px;
+    overflow: hidden;
 }
 
 .background {
     background-color: black;
-    margin-left: 270px;
-    margin-right: 270px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-top: 10px;
     padding-bottom: 1px;
+    /*width: 70%;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
